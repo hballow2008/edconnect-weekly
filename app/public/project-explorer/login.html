@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html>
-<header>
-    <h1> Project Explorer</h1>
-    <h2> One Stop Database for Academic Projects </h2>
-</header>
-<nav>
-    <a href="index.html"> Home</a>
-    <a href="search.html"> Projects</a>
-    <a href="login.html"> Login</a>
-    <a href="register.html"> Register</a>
-    <a href="createproject.html"> Submit</a>
-</nav>
-<main>
-    <h1> Login </h1>
-    <form>
-        <div> Email address: <input type="email" placeholder="Enter ypur email" name="email"> </div>
-        <div> Password: <input type ="text" value="Password" name="password"> </div>
-        <input type="submit">
-    </form> 
-</main>
+  <head>
+    <title>Project Explorer App</title>
+  </head>
 
+  <body>
+    <header>
+      <h1>Project Explorer</h1>
+      <h2>One Stop Database For Academic Projects</h2>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="search.html">Projects</a>
+      <a href="login.html">Login</a>
+      <a href="register.html">Register</a>
+    </nav>
+    <main>
+      <h1>Login</h1>
+      <!-- 
+          The <br /> tags are used temporily to achieve a vertical layout i.e to the make
+          the label appear on top of the inputs rather than on the same line i.e horizontally.
+          This will be fixed later with CSS.
+       -->
+      <form name="login">
+        <label>Email address:</label>
+        <input type="email" name="email" /><br /><br />
+        <label>Password:</label>
+        <input type="password" name="password" /><br /><br />
+        <input type="submit" />
+      </form>
+    </main>
+    <footer></footer>
+  </body>
 </html>
