@@ -9,16 +9,24 @@
     <a href="search.html"> Projects</a>
     <a href="login.html"> Login</a>
     <a href="register.html"> Register</a>
-    <a href="createproject.html"> Submit</a>
+    
 </nav>
 <main>
-    <h1> Sign Up</h1> 
+    <div>
+        <h2> John Doe </h2>
+        <span> john.doe@gmail.com</span>
+        <ul>
+            <li> Program: Computer Science</li>
+            <li> Matric: 00/0000</li>
+            <li> Graduation Year: 2019</li>
+        </ul>
+    </div>
     <form>
-        <div> First Name: <input type="text" name="firstname" placeholder="FirstName"></div>
-        <div> Last Name: <input type="text" name="lastName" placeholder="LastName"></div>
-        <div> Email Address: <input type="email" placeholder="E-mail" name="email"></div>
-        <div> Password: <input type="password" name="password" placeholder="Password"></div>
-        <div> Matric Number: <input type="text" name="matricNumber" placeholder="Matric Number"></div>
+        <h2> Update Profile</h2>
+        <div> First Name: <input type="text" name="firstName"></div>
+        <div> Last Name: <input type="text" name="lastName"></div>
+        <div> Email address: <input type="email" name="email"></div>
+        <div> Matric Number: <input type="text" name="matricNumber"></div>
         <div>Program: 
             <select>
                 <option value="computer_science">Computer Science</option>
@@ -41,7 +49,14 @@
         </div>
         <input type="submit">
     </form>
-
+    
+    <h2> Change Password</h2>
+    <form>
+        <div> Current Password: <input type="password" name="password"></div>
+        <div> New Password: <input type="password" name="password"></div>
+        <div> Confirm Password: <input type="password" name="password"></div>
+        <input type="submit">
+    </form>
 </main>
 
-</html>
+</html> 
